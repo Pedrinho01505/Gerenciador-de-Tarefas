@@ -57,7 +57,7 @@ function onTaskClick (taskId) {
   }
 
   return (                            
-    <div className="h-screen bg-slate-500 flex justify-center p-6">
+    <div className="h-screen w-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
         <Title>Gerenciador de Tarefas</Title>
         <AddTask onAddTaskSubmit={onAddTaskSubmit}/>
